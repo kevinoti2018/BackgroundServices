@@ -7,7 +7,7 @@ interface User{
     id:string
     username:string
     email:string
-    isSent:string
+    isSent:number
     }
     
     const sendWelcomeEmail = async()=>{
