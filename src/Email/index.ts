@@ -25,7 +25,7 @@ interface User{
         html
     };
     
-    console.log(html);
+    
     
      try {
     await sendMail(message) 

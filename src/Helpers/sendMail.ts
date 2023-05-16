@@ -19,7 +19,7 @@ function createTransporter(configOpts:any){
 
 export async function  sendMail(messageOptions:any){
     let transporter =  createTransporter(configOptions)
-    await transporter.verify()
+    //await transporter.verify()
     await transporter.sendMail(messageOptions,(err,response)=>{
         console.log(response)
     })
